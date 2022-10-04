@@ -2,7 +2,7 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |s|
-  s.name                  = 'iyzipay-subscriptions'
+  s.name                  = 'iyzipay-subscription-payments'
   s.version               = '1.0.1'
   s.platform              = Gem::Platform::RUBY
   s.required_ruby_version = '>= 1.9.3'
