@@ -8,11 +8,11 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 1.9.3'
   s.summary               = %q{iyzipay api ruby client for subscriptions feature}
   s.description           = %q{iyzipay api ruby client for subscriptions feature. You can sign up for an iyzico account at https://iyzico.com}
-  s.authors               = ['Iyzico', 'Mehmet Celik']
-  s.email                 = 'mehmetcelik4@gmail.com'
+  s.authors               = ['Iyzico', 'Muhammed Ali Arici']
+  s.email                 = 'm.ali.arici01@gmail.com'
   s.files                 = `git ls-files`.split("\n")
   s.test_files            = `git ls-files -- {spec}/*`.split("\n")
-  s.homepage              = 'https://github.com/MehmetCelik4/iyzipay-ruby'
+  s.homepage              = 'https://github.com/256-byte/iyzipay-ruby'
   s.license               = 'MIT'
 
   s.add_runtime_dependency 'rack', '~> 2.0'
